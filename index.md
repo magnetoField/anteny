@@ -11,19 +11,19 @@ layout: default
 | $\varepsilon \nabla \cdot \vec{E} = \rho$ | $\varepsilon \oint\limits_S \vec{E} \cdot \text{d}\vec{S} = q$ <br /> gdzie $q$ – całkowity ładunek zawarty wewnątrz powierzchni $S$ | Ładunki są źródłem pola elektrycznego. |
 | $\nabla \cdot \vec{B} = 0$ | $\oint\limits_S \vec{B} \cdot \text{d}\vec{S} = 0$ | Pole magnetyczne jest bezźródłowe. |
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Numerical Electromagnetics Code
 
-[Link to another page](./another-page.html).
+- 1975 Nec
+- 1992 Nec-4
+- Metoda numeryczna rozwiązywania równań Maxwella 
 
-There should be whitespace between paragraphs.
+![Obraz](https://images-provider.frontiersin.org/api/ipx/w=480&f=webp/https://www.frontiersin.org/files/Articles/1178466/fphy-11-1178466-HTML/image_m/fphy-11-1178466-g003.jpg)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Standing Wave Ratio
 
-# Header 1
+![Swar](https://upload.wikimedia.org/wikipedia/commons/7/7a/Standing_wave_ratio_%28showing_Vmin_and_Vmax%29.png)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## Header 2
 
 > This is a blockquote following a header.
 >
