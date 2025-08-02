@@ -1,3 +1,8 @@
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  # The following is for making sure `$` and `$$` delimiters are recognized
+  parse_block_html: true
 title: Anteny
 description: projektowanie w 4nec2.
 show_downloads: false
