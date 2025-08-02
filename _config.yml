@@ -6,5 +6,6 @@ kramdown:
 title: Anteny
 description: projektowanie w 4nec2.
 show_downloads: false
+is_project_page: flase
 google_analytics:
 theme: jekyll-theme-architect
