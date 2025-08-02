@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+# Równania Maxwella
+| Postać różniczkowa | Postać całkowa | Sens fizyczny równania |
+| :---: | :---: | :--- |
+| $\nabla \times \vec{E} = -\frac{\partial \vec{B}} {\partial {t}}$ | $\oint\limits_L \vec{E} \cdot \text{d}\vec{l} = -\frac{\text{d}\Phi_B}{\text{d}t}$ <br /> gdzie $\Phi_B$ – strumień magnetyczny przez dowolny kontur rozpięty na krzywej L | Zmienne w czasie pole magnetyczne wytwarza pole elektryczne. |
+| $\nabla \times \vec{B} = \mu \vec{j} +\mu \varepsilon \frac{\partial \vec{E}} {\partial {t}}$ | $\oint\limits_L \vec{B} \cdot \text{d}\vec{l} = \mu I + \mu \varepsilon \frac{\text{d}\Phi_E}{\text{d}t}$ <br /> gdzie $\Phi_E$ – strumień elektryczny przez dowolny kontur rozpięty na krzywej L, a $I$ – całkowity prąd elektryczny przecinający ten kontur | Przepływający prąd oraz zmienne pole elektryczne wytwarzają pole magnetyczne. |
+| $\varepsilon \nabla \cdot \vec{E} = \rho$ | $\varepsilon \oint\limits_S \vec{E} \cdot \text{d}\vec{S} = q$ <br /> gdzie $q$ – całkowity ładunek zawarty wewnątrz powierzchni $S$ | Ładunki są źródłem pola elektrycznego. |
+| $\nabla \cdot \vec{B} = 0$ | $\oint\limits_S \vec{B} \cdot \text{d}\vec{S} = 0$ | Pole magnetyczne jest bezźródłowe. |
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
