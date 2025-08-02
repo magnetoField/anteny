@@ -2,6 +2,7 @@
 layout: default
 ---
 # Równania Maxwella
+
 | Postać różniczkowa | Postać całkowa | Sens fizyczny równania |
 | :---: | :---: | :--- |
 | $\nabla \times \vec{E} = -\frac{\partial \vec{B}} {\partial {t}}$ | $\oint\limits_L \vec{E} \cdot \text{d}\vec{l} = -\frac{\text{d}\Phi_B}{\text{d}t}$ <br /> gdzie $\Phi_B$ – strumień magnetyczny przez dowolny kontur rozpięty na krzywej L | Zmienne w czasie pole magnetyczne wytwarza pole elektryczne. |
