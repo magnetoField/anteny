@@ -61,12 +61,13 @@ header h2 {
 
 #content-wrapper {
   padding-top: 30px;
+  padding-left: 40px;
   border-top: solid 1px #fff;
 }
 
 #main-content {
-  float: center;
-  width: 80%;
+  float: none;
+  max-width: 97%;
 }
 
 #main-content img {
