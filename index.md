@@ -2,6 +2,10 @@
 layout: default
 ---
 
+# [https://magnetofield.github.io/anteny/](https://magnetofield.github.io/anteny/)
+
+![qr-code](/assets/images/qr-code.png)
+
 # Agenda
 
 - Wprowadzenie do teorii fal elektromagnetycznych.
@@ -26,6 +30,7 @@ layout: default
 # Instalacja programu
 
 ### [https://www.qsl.net/4nec2/](https://www.qsl.net/4nec2/)  
+__https://www.qsl.net/4nec2/__  
 
 ![Direct_antena_beam](https://www.qsl.net/4nec2/Home_files/image005.gif)
 
@@ -48,7 +53,28 @@ layout: default
 
 ![Obraz](https://images-provider.frontiersin.org/api/ipx/w=480&f=webp/https://www.frontiersin.org/files/Articles/1178466/fphy-11-1178466-HTML/image_m/fphy-11-1178466-g003.jpg)
 
+# Warunki dobrego modelowania
 
+## Zasady dotyczące długości segmentów
+ - Maksymalna długość: Segmenty powinny generalnie mieć długość mniejszą niż 0,1 długości fali (λ/10).
+ - Minimalna długość: Segmenty mogą być krótsze, szczególnie w obszarach o wysokim natężeniu prądu lub o krytycznej geometrii, nawet do 0,05 długości fali (λ/20) lub mniej.
+ - Równe długości: Staraj się, aby wszystkie segmenty w modelu miały tę samą długość, aby uniknąć błędów. 
+
+## Zasady dotyczące średnicy
+Stosunek segmentu do drutu (l/r):
+Ten stosunek jest kluczowy dla wyboru prawidłowej metody obliczeniowej w NEC:
+ - l/r > 8: Można użyć podstawowego jądra „Thin Wire Kernel”.
+ - 2 < l/r < 8: Użyj „Extended Thin Wire Kernel”, dodając kartę „EK” do pliku wejściowego NEC w celu zwiększenia dokładności.
+ - l/r < 2: Dokładność szybko spada, ale rozszerzone jądro cienkiego drutu jest nadal w miarę akceptowalne do l/r = 0,5.
+
+
+# Antena jako przetwornik
+
+![cap](/assets/images/cap.png)
+
+![captodip](/assets/images/cap_to_dip.PNG)
+
+![anten](/assets/images/ant.png)
 
 ## Standing Wave Ratio
 
@@ -227,108 +253,17 @@ Notes:
 - As a rule of thumb, segment lengths should be less than 0.1 wave- length at the desired frequency. Somewhat longer segments may be used on long wires with no abrupt changes, while shorter segments, 0.05 wavelength or less, may be required in modeling critical regions of an antenna.
 - If input is in units other than meters, then the units must be scaled to meters through the use of a Scale Structure Dimensions (GS) card.
 ```
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+# Obwód dopasowujący
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+[Symulacja](https://tinyurl.com/2dmcjayq)  
+  
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+![tuner](assets/images/tuner.png)
 
-#### Header 4
+# literatura
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+ARRL_Antenna_Book_21st_Edition   
+![tuner](assets/images/lit.png)
+[Navy Electricity and Electronics Training Series - Module 10 Propagation Transmission Lines and Antennas](2020/02/NEETS-Module-10-Propagation-Transmission-Lines-and-Antennas-NAVEDTRA-14182A-2012-edition.pdf)
 
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
