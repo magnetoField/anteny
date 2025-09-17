@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-# Nagranie z warsztatów
+# Projektowanie anten w 4NEC2
+
 Poniżej nagranie z warsztatów które odbyły się w Burzeninie w trakcie corocznego Zjazdu Technicznego Krótkofalowców 2025 roku.  
 {% include youtube.html id="Cq-F1-2h73k" %}  
 
