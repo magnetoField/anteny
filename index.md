@@ -149,7 +149,7 @@ Do pomiaru SWR stosuje się pasywne urządzenia zwane **reflektometrami**.
 
 ## Transformator
 
-![Transformer](https://circuitdigest.com/sites/default/files/projectimage_tut/Impedance-Matching-Transformers-Circuit.png)
+![Transformer](assets/images/trafo.png)
 
 ## Baluny i Ununy
 
