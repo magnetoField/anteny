@@ -259,7 +259,7 @@ Notes:
 
 # Obwód dopasowujący
 
-[Symulacja](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEAWaAOMaBMA2AnNnmJAdiAsuSmuQKYC0YYAUAG4hbKTgDsOHXcGCxRwINNyTcw0BD0g88OAMy5FyNEv4wEzAE4DpwlHCEjpcZgHdDvfl2l8obW8pw1O3ZZErTxk0Rk5BSVVHHVNHG1Za1d3Ey94yH1XHwSQb19wSwAbdKYRBztRGGVkZAQaGHhlPEUsLDBlYIrhCGSAY3TM7vjfWHgmDX4saAbyxWaeTh5K9oH22M8OafSsVeT2ZfWRbcgqsQkqaVl5RRU1PA0tKBibPZoirH3nAyeXp42OSwB7EH5VBkQAAPLAYSBMY6wBDtIFVWDCWaBCDKW4Q9ZSEA8IHVRFSZhAA)  
+[Symulacja](https://tinyurl.com/yokvxfxu)  
   
 
 ![tuner](assets/images/tuner.png)
