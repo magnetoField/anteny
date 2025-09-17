@@ -3,6 +3,8 @@ layout: default
 ---
 # Nagranie z warsztatów
 Poniżej nagranie z warsztatów które odbyły się w Burzeninie w trakcie corocznego Zjazdu Technicznego Krótkofalowców 2025 roku.  
+{% include youtube.html id="Cq-F1-2h73k" %}  
+
 [Youtube - Nagranie z warsztatów na temat projektowania anten w programie 4nec2](https://www.youtube.com/watch?v=Cq-F1-2h73k)
 
 # [https://magnetofield.github.io/anteny/](https://magnetofield.github.io/anteny/)
@@ -267,6 +269,7 @@ Notes:
 # literatura
 
 ARRL_Antenna_Book_21st_Edition   
-![tuner](assets/images/lit.png)
+![tuner](assets/images/lit.png)  
+
 [Navy Electricity and Electronics Training Series - Module 10 Propagation Transmission Lines and Antennas](2020/02/NEETS-Module-10-Propagation-Transmission-Lines-and-Antennas-NAVEDTRA-14182A-2012-edition.pdf)
 
