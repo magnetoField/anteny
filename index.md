@@ -8,9 +8,6 @@ Poniżej nagranie z warsztatów które odbyły się w Burzeninie w trakcie coroc
 
 [Youtube - Nagranie z warsztatów na temat projektowania anten w programie 4nec2](https://www.youtube.com/watch?v=Cq-F1-2h73k)
 
-# [https://magnetofield.github.io/anteny/](https://magnetofield.github.io/anteny/)
-
-![qr-code](/assets/images/qr-code.png)
 
 # Agenda
 
