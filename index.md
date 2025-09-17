@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+# Nagranie z warsztatów
+Poniżej nagranie z warsztatów które odbyły się w Burzeninie w trakcie corocznego Zjazdu Technicznego Krótkofalowców 2025 roku.  
+[Youtube - Nagranie z warsztatów na temat projektowania anten w programie 4nec2](https://www.youtube.com/watch?v=Cq-F1-2h73k)
 
 # [https://magnetofield.github.io/anteny/](https://magnetofield.github.io/anteny/)
 
